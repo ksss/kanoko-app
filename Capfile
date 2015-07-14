@@ -1,5 +1,5 @@
 require 'aws-sdk'
-Aws.config[:profile] = "streume"
+Aws.config[:profile] = ENV["AWS_PROFILE"]
 Aws.config[:region] = ENV["AWS_REGION"]
 Aws::EC2
 
