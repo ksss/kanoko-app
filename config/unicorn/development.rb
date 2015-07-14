@@ -1,4 +1,4 @@
 worker_processes 4
-listen "/tmp/unicorn-kanoko.sock"
+listen "localhost:3001"
 pid "tmp/pids/unicorn.pid"
 preload_app true
