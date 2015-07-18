@@ -1,5 +1,6 @@
 require 'rack-health'
 require './app'
+require 'unicorn/worker_killer'
 
 GC::Profiler.enable
 use Unicorn::WorkerKiller::MaxRequests, 128, 256

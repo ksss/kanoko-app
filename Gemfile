@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'unicorn'
-gem 'unicorn-worker-killer', require: 'unicorn/worker_killer'
+gem 'unicorn-worker-killer'
 gem 'sinatra'
 gem 'rack-health'
 gem 'kanoko'
