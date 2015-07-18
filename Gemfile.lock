@@ -1,12 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk (2.1.1)
-      aws-sdk-resources (= 2.1.1)
-    aws-sdk-core (2.1.1)
+    aws-sdk (2.1.7)
+      aws-sdk-resources (= 2.1.7)
+    aws-sdk-core (2.1.7)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.1.1)
-      aws-sdk-core (= 2.1.1)
+    aws-sdk-resources (2.1.7)
+      aws-sdk-core (= 2.1.7)
     capistrano (3.4.0)
       i18n
       rake (>= 10.0.0)
@@ -24,10 +24,10 @@ GEM
     i18n (0.7.0)
     jmespath (1.0.2)
       multi_json (~> 1.0)
-    kanoko (0.1.1)
+    kanoko (0.1.2)
       sinatra
     kgio (2.9.3)
-    multi_json (1.11.1)
+    multi_json (1.11.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
@@ -36,7 +36,7 @@ GEM
       rack (>= 1.2.0)
     rack-protection (1.5.3)
       rack
-    raindrops (0.13.0)
+    raindrops (0.14.0)
     rake (10.4.2)
     sinatra (1.4.6)
       rack (~> 1.4)
